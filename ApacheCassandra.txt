@@ -1,0 +1,13 @@
+Apache Cassandra es un sistema NoSQL, distribuido y preparado para big data. Es de código abierto y está escrito en Java; es usado en distintas empresas tales como eBay, GitHub, Instagram, Netflix, entre otras.
+Posee las siguientes características:
+Tolerante a Fallos: Los datos son replicados automáticamente en múltiples nodos y se admite la replicación en varios centros de datos, gracias a esto los nodos fallidos se pueden reemplazar sin tiempo de inactividad.
+Performant: Es la mejor alternativa NoSQL debido a sus opciones arquitectónicas fundamentales
+Descentralizado: No existen cuellos de botella en la red, cada nodo en el clúster es idéntico
+Escalable: La cantidad de nodos a usar se adapta a las necesidades de la base de datos
+Durable: No se pierden los datos, incluso cuando todo un centro de datos se cae
+Elástico: El rendimiento de lectura y escritura aumenta linealmente a medida que se agregan nuevas maquinas
+Profesionalmente Apoyado: Ya que es de código abierto
+Apache Cassandra sirve para modelar datos con el fin de permitir bajas latencias, tener millones de datos distribuidos globalmente, leer y escribir desde cualquier lugar, escalar los nodos de manera flexible, poseer una mayor disponibilidad frente a fallas, y reducir los costos operacionales de equipos y software
+
+
+Apache Cassandra interactúa con Python, pues tiene un controlador en este lenguaje, que es Datastax Python driver, este se puede instalar como una dependencia de la aplicación para facilitar el acceso y el trabajo con Apache Cassandra en las aplicaciones de Python
